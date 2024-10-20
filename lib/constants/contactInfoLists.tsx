@@ -1,9 +1,8 @@
-import { contactList } from "@/interfaces/navBar";
 import { FaPhone } from "react-icons/fa6";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { IoLocationOutline } from "react-icons/io5";
 
-export const contactInfoList: contactList[] = [
+export const contactInfoList: ContactInfoItemProps[] = [
   {
     icon: <FaPhone className="inline -mt-1" />,
     text: "1234567890",

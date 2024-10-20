@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/Navbar/Navbar";
+import SchoolDetailsHead from "@/components/Navbar/SchoolDetailsHead";
 
 const Montserrat = localFont({
   src: "./fonts/Montserrat.ttf",
@@ -23,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${Montserrat.variable} antialiased`}>
+        <SchoolDetailsHead />
         <Navbar />
         {children}
       </body>

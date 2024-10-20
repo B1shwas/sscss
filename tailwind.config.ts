@@ -19,6 +19,7 @@ const config: Config = {
         primary: "#28abe2",
         secondary: "#6360af",
         nav: "#033348",
+        para: "#666666",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {

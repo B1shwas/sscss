@@ -82,4 +82,8 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+
+  .link {
+    @apply text-link font-medium hover:text-black hover:opacity-40 transition-opacity;
+  }
 }

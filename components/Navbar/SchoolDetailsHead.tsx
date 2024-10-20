@@ -1,10 +1,6 @@
-import { contactInfoList } from "@/constants/navBar";
+import { contactInfoList } from "@/lib/constants/contactInfoLists";
+import { ContactInfoItemProps } from "@/lib/interfaces";
 import { FaFacebookF, FaLinkedin, FaYoutube } from "react-icons/fa";
-
-interface ContactInfoItemProps {
-  icon: JSX.Element;
-  text: string;
-}
 
 const ContactInfoItem: React.FC<ContactInfoItemProps> = ({ icon, text }) => (
   <div className="flex items-center text-xl border-r-2 pr-5 last:border-none">
@@ -13,9 +9,9 @@ const ContactInfoItem: React.FC<ContactInfoItemProps> = ({ icon, text }) => (
   </div>
 );
 
-const Navbar: React.FC = () => {
+const SchoolDetailsHead = () => {
   return (
-    <nav className="bg-nav">
+    <div className="bg-nav">
       <div className="container mx-auto py-4 text-white flex flex-col lg:flex-row justify-between gap-4">
         <div className="flex flex-wrap gap-3 text-nowrap">
           {contactInfoList.map((info, index) => (
@@ -30,8 +26,8 @@ const Navbar: React.FC = () => {
           ))}
         </div>
       </div>
-    </nav>
+    </div>
   );
 };
 
-export default Navbar;
+export default SchoolDetailsHead;
