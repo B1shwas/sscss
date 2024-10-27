@@ -1,6 +1,9 @@
+import { StaticImageData } from "next/image";
+
 export interface ContactInfoItemProps {
   icon: JSX.Element;
   text: string;
+  className?: string;
 }
 
 export interface NavLinks {
@@ -21,4 +24,11 @@ export interface BenefitCardProps {
   Icon: React.ElementType;
   title: string;
   paragraph: string;
+}
+
+export interface StaffCardProps {
+  image: StaticImageData;
+  name: string;
+  role: string;
+  category: "BOD" | "Staff";
 }

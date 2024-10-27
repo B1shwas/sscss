@@ -2,10 +2,10 @@ export const navLinks = [
   {
     label: "About",
     sublink: [
-      { label: "Introduction", href: "about/introduction" },
-      { label: "Vision", href: "about/vision" },
-      { label: "Staff", href: "about/staff" },
-      { label: "Achievements", href: "about/achievements" },
+      { label: "Introduction", href: "/introduction" },
+      { label: "Vision", href: "/vision" },
+      { label: "Staff", href: "/staff" },
+      { label: "Achievements", href: "/achievements" },
     ],
   },
   {
@@ -13,11 +13,7 @@ export const navLinks = [
     href: "/gallery",
   },
   {
-    label: "News and Events",
-    href: "/news-and-events",
-  },
-  {
     label: "Admission",
-    href: "/admission",
+    href: "#admission",
   },
 ];

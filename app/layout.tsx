@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import Navbar from "@/components/Navbar/Navbar";
-import SchoolDetailsHead from "@/components/Navbar/SchoolDetailsHead";
+import Navbar from "@/components/NavbarAndFooter/Navbar";
+import SchoolDetailsHead from "@/components/NavbarAndFooter/SchoolDetailsHead";
+import AdmissionForm from "@/components/Main/AdmissionForm";
+import Footer from "@/components/NavbarAndFooter/Footer";
+import { Toaster } from "@/components/ui/toaster";
+import Head from "next/head";
 
 const Montserrat = localFont({
   src: "./fonts/Montserrat.ttf",
@@ -11,7 +15,7 @@ const Montserrat = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Saraswati Secondary School",
+  title: "Home | SSCSS",
   description:
     "Saraswati Secondary School is the well renowned school in Dolakha district.",
 };
@@ -27,6 +31,9 @@ export default function RootLayout({
         <SchoolDetailsHead />
         <Navbar />
         {children}
+        <AdmissionForm />
+        <Toaster />
+        <Footer />
       </body>
     </html>
   );

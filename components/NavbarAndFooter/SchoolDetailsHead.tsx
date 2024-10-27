@@ -2,8 +2,14 @@ import { contactInfoList } from "@/lib/constants/contactInfoLists";
 import { ContactInfoItemProps } from "@/lib/interfaces";
 import { FaFacebookF, FaLinkedin, FaYoutube } from "react-icons/fa";
 
-const ContactInfoItem: React.FC<ContactInfoItemProps> = ({ icon, text }) => (
-  <div className="flex items-center text-xl border-r-2 pr-5 last:border-none">
+export const ContactInfoItem: React.FC<ContactInfoItemProps> = ({
+  icon,
+  text,
+  className,
+}) => (
+  <div
+    className={`flex items-center text-xl border-r-2 pr-5 last:border-none ${className}`}
+  >
     {icon}
     <span className="ml-4 text-link">{text}</span>
   </div>

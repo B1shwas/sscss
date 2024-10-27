@@ -6,25 +6,25 @@ export const benefitCardList = [
   {
     title: "Community",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "We cultivate a supportive environment where students thrive, working closely with parents to enhance education.",
     Icon: TbUsersMinus,
   },
   {
     title: "Activities",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Our extensive extracurricular programs, including sports and arts, help students explore their talents and build teamwork skills.",
     Icon: MdSportsHandball,
   },
   {
     title: "Academics",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "We provide a solid academic foundation for students up to class 10, focusing on critical thinking and practical knowledge.",
     Icon: FaGraduationCap,
   },
   {
     title: "Admissions",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Admissions are open for students up to class 10. Join us to explore enrollment options and meet our dedicated team.",
     Icon: IoBookOutline,
   },
 ];

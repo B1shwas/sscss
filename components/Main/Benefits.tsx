@@ -8,9 +8,12 @@ const Benefits: React.FC = () => {
   const BENEFIT_SUBTITLE = "Our Benefits";
   const BENEFIT_TITLE = "Discover our Top  School Child Benefits";
   const PARAGRAPH =
-    "Visit our school and speak with our parents and staff for more to educate and empower young women. Vision of education inspire us today.";
+    "Join us for a visit to experience our school firsthand. Speak with our parents and see how we nurture and educate our students.";
   return (
-    <div className="bg-gray-300 px-4 md:px-10 py-10 grid grid-cols-3 gap-5">
+    <div
+      className="bg-gray-300 px-4 md:px-10 py-10 grid grid-cols-3 gap-5"
+      id="benefits"
+    >
       <div className="col-span-3 lg:col-span-1 space-y-5">
         <Heading title={BENEFIT_TITLE} subtitle={BENEFIT_SUBTITLE} />
         <P1>{PARAGRAPH}</P1>
