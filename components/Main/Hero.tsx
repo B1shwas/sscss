@@ -14,8 +14,8 @@ const Hero: React.FC = () => {
       >
         <div className="absolute inset-0 bg-black opacity-50" />
         <div className="text-white font-bold relative">
-          <h5 className="text-title">One Team. One Mission</h5>
-          <h3 className="text-7xl">Knowledge</h3>
+          <h5 className="text-[24px] sm:text-title">One Team. One Mission</h5>
+          <h3 className="text-[32px] sm:text-7xl">Knowledge</h3>
           <Link href={"/vision"}>
             <Button className="text-paragraph px-5 py-3 mt-5 rounded-sm">
               Learn More
