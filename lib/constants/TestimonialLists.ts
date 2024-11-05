@@ -1,8 +1,8 @@
-import testimony1 from "@/public/images/testimony/bishwash.jpg";
-import testimony2 from "@/public/images/testimony/dhiraj.jpg";
-import testimony3 from "@/public/images/testimony/gelbu.jpg";
-import testimony4 from "@/public/images/testimony/lila.jpg";
-import testimony5 from "@/public/images/testimony/parent.jpg";
+import testimony1 from "@/public/images/testimony/t1.jpg";
+import testimony2 from "@/public/images/testimony/t2.jpg";
+import testimony3 from "@/public/images/testimony/t5.jpg";
+import testimony4 from "@/public/images/testimony/t4.jpg";
+import testimony5 from "@/public/images/testimony/t3.jpg";
 
 export const TestimonialLists = [
   {
