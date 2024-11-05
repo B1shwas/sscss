@@ -27,6 +27,7 @@ const BoardMember = () => {
         {boardMemberList.map((item, index) => (
           <div key={index} className="space-y-2">
             <Image
+              //@ts-ignore
               src={item.image}
               alt="image"
               className="object-cover h-[300px]"
