@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import { program1 } from "@/lib/imports";
 import PageTitle from "./_component/PageTitle";

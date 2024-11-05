@@ -19,7 +19,7 @@ const DropdownLink = (props: { className?: string }) => {
       >
         {navLinks.map((link, index) =>
           link.sublink ? (
-            <NavigationMenuItem>
+            <NavigationMenuItem key={index}>
               <NavigationMenuTrigger className="!text-link">
                 {link.label}
               </NavigationMenuTrigger>

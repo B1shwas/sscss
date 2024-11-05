@@ -43,7 +43,7 @@ const Form = () => {
           });
           console.log("Email sent successfully:", response);
         })
-        .catch((error) => {
+        .catch(() => {
           toast({
             title: "Error",
             description: "Something went wrong. Please try again later.",

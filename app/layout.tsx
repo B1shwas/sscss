@@ -6,7 +6,6 @@ import SchoolDetailsHead from "@/components/NavbarAndFooter/SchoolDetailsHead";
 import AdmissionForm from "@/components/Main/AdmissionForm";
 import Footer from "@/components/NavbarAndFooter/Footer";
 import { Toaster } from "@/components/ui/toaster";
-import Head from "next/head";
 
 const Montserrat = localFont({
   src: "./fonts/Montserrat.ttf",
