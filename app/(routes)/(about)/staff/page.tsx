@@ -1,6 +1,7 @@
 import { staffLists } from "@/lib/constants/Staffs";
 import { Metadata } from "next";
 import Image from "next/image";
+import { noImage } from "@/lib/imports";
 
 export const metadata: Metadata = {
   title: "Staff | SSCSS",
@@ -20,7 +21,7 @@ const page = () => {
         {staffLists.map((staff, index) => (
           <div key={index} className="col-span-1 space-y-1">
             <Image
-              src={staff.image}
+              src={staff.image || noImage}
               alt={staff.name}
               className=" object-cover h-[250px] bg-black/25"
             />

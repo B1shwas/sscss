@@ -27,7 +27,7 @@ export interface BenefitCardProps {
 }
 
 export interface StaffCardProps {
-  image: StaticImageData;
+  image?: StaticImageData;
   name: string;
   role: string;
   category: "BOD" | "Staff";

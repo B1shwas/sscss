@@ -53,9 +53,11 @@ import quiz from "@/public/images/achievements/quiz.jpg";
 import ble from "@/public/images/achievements/ble.jpg";
 import ble2 from "@/public/images/achievements/ble2.jpg";
 import kabadii from "@/public/images/achievements/kabadii.jpg";
+import noImage from "@/public/images/staff/noProfile.jpg";
 
 // Exporting images individually
 export {
+  noImage,
   hero1,
   hero2,
   hero3,

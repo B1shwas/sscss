@@ -6,20 +6,21 @@ const SchoolNumbers = () => {
   const schoolNumbers = [
     {
       Icon: IoGlobe,
-      number: "30",
+      number: "18",
       title: "Full time faculty",
     },
     {
       Icon: PiStudentFill,
-      number: "400",
+      number: "350",
       title: "Current Enrollment",
     },
     {
       Icon: PiChalkboardTeacherFill,
-      number: "8:1",
+      number: "20:1",
       title: "Teacher/Student Ratio",
     },
   ];
+
   return (
     <div className="px-4 md:px-10 py-10 grid grid-cols-1 sm:grid-cols-3 gap-4">
       {schoolNumbers.map((number, index) => (
