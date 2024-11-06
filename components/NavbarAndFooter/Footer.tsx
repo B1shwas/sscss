@@ -23,7 +23,7 @@ const Footer = () => {
       <div className="container flex justify-between gap-10 py-10 flex-col lg:flex-row">
         <div className="space-y-3">
           <Logo />
-          <p>Theme message of the school</p>
+          <p>We always put the students first</p>
         </div>
         <div className="space-y-2">
           <h3 className="text-paragraph font-semibold">Pages</h3>

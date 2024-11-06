@@ -26,6 +26,9 @@ const AdmissionForm = () => {
                 className="border-none mb-4 !text-2xl"
               />
             ))}
+            <p className="mt-2 text-red-500">
+              Please note: We only accept admissions from nursery to class 9.
+            </p>
           </div>
         </div>
         <div className="py-6 w-[100%]">

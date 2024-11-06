@@ -11,12 +11,12 @@ const SchoolNumbers = () => {
     },
     {
       Icon: PiStudentFill,
-      number: "350",
+      number: "380",
       title: "Current Enrollment",
     },
     {
       Icon: PiChalkboardTeacherFill,
-      number: "20:1",
+      number: "21:1",
       title: "Teacher/Student Ratio",
     },
   ];

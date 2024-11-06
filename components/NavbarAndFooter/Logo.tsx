@@ -1,13 +1,13 @@
-import logo from "@/public/images/logo/logo.webp";
+import { schoolLogo } from "@/lib/imports";
 import Image from "next/image";
 import Link from "next/link";
 const Logo: React.FC = () => {
   return (
     <Link href="/">
       <div className="flex gap-2 items-center">
-        <Image src={logo} alt="Logo" height={70} />
+        <Image src={schoolLogo} alt="Logo" height={90} />
         <h1 className="text-paragraph font-semibold max-sm:max-w-52">
-          Shree Saraswati Secondary School{" "}
+          Shree Saraswati Community Secondary School{" "}
         </h1>
       </div>
     </Link>

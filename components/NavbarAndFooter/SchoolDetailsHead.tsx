@@ -1,6 +1,7 @@
 import { contactInfoList } from "@/lib/constants/contactInfoLists";
 import { ContactInfoItemProps } from "@/lib/interfaces";
-import { FaFacebookF, FaLinkedin, FaYoutube } from "react-icons/fa";
+import Link from "next/link";
+import { FaFacebookF } from "react-icons/fa";
 
 export const ContactInfoItem: React.FC<ContactInfoItemProps> = ({
   icon,
@@ -25,10 +26,17 @@ const SchoolDetailsHead = () => {
           ))}
         </div>
         <div className="flex gap-5">
-          {[FaFacebookF, FaLinkedin, FaYoutube].map((Icon, index) => (
-            <div key={index} className="p-2 bg-white/40 rounded-md">
-              <Icon className="text-xl" />
-            </div>
+          {[
+            {
+              icon: FaFacebookF,
+              href: "https://www.facebook.com/profile.php?id=100057306135079",
+            },
+          ].map((Icon, index) => (
+            <Link href={Icon.href} key={index}>
+              <div className="p-2 bg-white/40 rounded-md">
+                <Icon.icon className="text-xl" />
+              </div>
+            </Link>
           ))}
         </div>
       </div>

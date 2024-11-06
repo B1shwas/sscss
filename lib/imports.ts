@@ -54,6 +54,8 @@ import ble from "@/public/images/achievements/ble.jpg";
 import ble2 from "@/public/images/achievements/ble2.jpg";
 import kabadii from "@/public/images/achievements/kabadii.jpg";
 import noImage from "@/public/images/staff/noProfile.jpg";
+import schoolLogo from "@/public/images/logo/schoollogo.png";
+import Logo2 from "@/public/images/logo/logo2.png";
 
 // Exporting images individually
 export {
@@ -112,4 +114,6 @@ export {
   program8,
   program9,
   program10,
+  schoolLogo,
+  Logo2,
 };

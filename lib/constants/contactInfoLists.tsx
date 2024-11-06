@@ -6,14 +6,14 @@ import { ContactInfoItemProps } from "../interfaces";
 export const contactInfoList: ContactInfoItemProps[] = [
   {
     icon: <FaPhone className="inline -mt-1" />,
-    text: "1234567890",
+    text: "049400016",
   },
   {
     icon: <MdOutlineMailOutline className="inline -mt-1" />,
-    text: "example@mail.com",
+    text: "sscss@gmail.com",
   },
   {
     icon: <IoLocationOutline className="inline -mt-1" />,
-    text: "XYZ Street, Alabama",
+    text: "Jiri-5, Dolakha",
   },
 ];
