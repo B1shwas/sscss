@@ -29,7 +29,7 @@ const MobileNav: React.FC = () => {
             <IoGlobe className="text-title" />
             <h6 className="font-semibold">
               Contact us
-              <p>4567654</p>
+              <p>049400016</p>
             </h6>
           </div>
         </SheetContent>
