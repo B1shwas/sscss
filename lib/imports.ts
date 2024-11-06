@@ -6,7 +6,7 @@ import hero4 from "@/public/images/hero/hero4.jpg";
 import contact from "@/public/images/hero/contact.jpeg";
 import sample from "@/public/images/hero/sample.jpg";
 import sample2 from "@/public/images/hero/sample2.jpeg";
-import logo from "@/public/images/logo/logo.webp";
+import logo from "@/public/images/logo/logo.png";
 import bishwash from "@/public/images/testimony/t1.jpg";
 import dhiraj from "@/public/images/testimony/t2.jpg";
 import gelbu from "@/public/images/testimony/t5.jpg";
